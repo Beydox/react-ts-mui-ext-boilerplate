@@ -1,0 +1,27 @@
+{
+	"name": "React TS MUI extension",
+	"manifest_version": 3,
+	"version": "1.0.0",
+	"description": "A basic example extension",
+	"icons": {
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"permissions": [],
+	"background": {
+    "service_worker": "background.js",
+	"type": "module"
+	},
+	"content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["contentScript.js"]
+    }
+	],
+    "action": {
+		"default_title": "Action text of example extension",
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html"
+	
+}

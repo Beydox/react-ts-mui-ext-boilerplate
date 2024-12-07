@@ -1,0 +1,1 @@
+console.log("React ts mui boilerplate 'Hello world!' background.js message")
