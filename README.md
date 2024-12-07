@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # Chrome Extension Boilerplate
 
 A modern boilerplate for developing Chrome extensions using **React**, **TypeScript**, and **Material-UI (MUI)**. This project provides a strong foundation for building powerful and user-friendly Chrome extensions.
@@ -28,7 +27,7 @@ Ensure you have the following installed:
 1. Clone this repository:
    ```bash
    git clone https://github.com/Beydox/react-ts-mui-ext-boilerplate.git
-   ```
+   
 
 2. Navigate to the project directory:
    ```bash
